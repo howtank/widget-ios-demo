@@ -1,0 +1,16 @@
+PODS:
+  - HowtankWidgetSwift (2.2.5)
+
+DEPENDENCIES:
+  - HowtankWidgetSwift
+
+SPEC REPOS:
+  trunk:
+    - HowtankWidgetSwift
+
+SPEC CHECKSUMS:
+  HowtankWidgetSwift: cf5d06202af54c1961958ede7af136ff0e898a9d
+
+PODFILE CHECKSUM: 8d0cc66cfab1879ad8c68e8f6968bb2757d454b3
+
+COCOAPODS: 1.11.3

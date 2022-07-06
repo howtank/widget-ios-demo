@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238E7C9F28747913001042C6 /* Showcase1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238E7C9E28747913001042C6 /* Showcase1ViewController.m */; };
+		238E7CA228747924001042C6 /* Showcase2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238E7CA128747924001042C6 /* Showcase2ViewController.m */; };
+		23BF05EE286D90F9007E4C5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF05ED286D90F9007E4C5E /* AppDelegate.m */; };
+		23BF05F1286D90F9007E4C5E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF05F0286D90F9007E4C5E /* SceneDelegate.m */; };
+		23BF05F4286D90F9007E4C5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF05F3286D90F9007E4C5E /* ViewController.m */; };
+		23BF05F7286D90F9007E4C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BF05F5286D90F9007E4C5E /* Main.storyboard */; };
+		23BF05F9286D90FC007E4C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BF05F8286D90FC007E4C5E /* Assets.xcassets */; };
+		23BF05FC286D90FC007E4C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BF05FA286D90FC007E4C5E /* LaunchScreen.storyboard */; };
+		23BF05FF286D90FC007E4C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF05FE286D90FC007E4C5E /* main.m */; };
+		23BF0609286DA261007E4C5E /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF0607286DA261007E4C5E /* TextFieldCell.m */; };
+		23BF060A286DA261007E4C5E /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF0608286DA261007E4C5E /* TextFieldCell.xib */; };
+		23BF0611286DA985007E4C5E /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF060F286DA985007E4C5E /* ButtonCell.m */; };
+		23BF0612286DA985007E4C5E /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF0610286DA985007E4C5E /* ButtonCell.xib */; };
+		23BF0616286DA993007E4C5E /* SwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF0614286DA993007E4C5E /* SwitchCell.m */; };
+		23BF0617286DA993007E4C5E /* SwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF0615286DA993007E4C5E /* SwitchCell.xib */; };
+		23BF0622286DAF83007E4C5E /* BrowsePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF0620286DAF83007E4C5E /* BrowsePageCell.m */; };
+		23BF0623286DAF83007E4C5E /* BrowsePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF0621286DAF83007E4C5E /* BrowsePageCell.xib */; };
+		23BF0627286DAFA8007E4C5E /* ConversionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF0625286DAFA8007E4C5E /* ConversionCell.m */; };
+		23BF0628286DAFA8007E4C5E /* ConversionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF0626286DAFA8007E4C5E /* ConversionCell.xib */; };
+		23BF062C286DAFB7007E4C5E /* PurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BF062A286DAFB7007E4C5E /* PurchaseCell.m */; };
+		23BF062D286DAFB7007E4C5E /* PurchaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23BF062B286DAFB7007E4C5E /* PurchaseCell.xib */; };
+		9841C054662B6D7F63D3CD16 /* Pods_HowtankWidgetDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052007ABE3F50B4D97FD3B59 /* Pods_HowtankWidgetDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		052007ABE3F50B4D97FD3B59 /* Pods_HowtankWidgetDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowtankWidgetDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B4FDBD17ED0ABF5271515C0 /* Pods-HowtankWidgetDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtankWidgetDemo.release.xcconfig"; path = "Target Support Files/Pods-HowtankWidgetDemo/Pods-HowtankWidgetDemo.release.xcconfig"; sourceTree = "<group>"; };
+		238E7C9D28747913001042C6 /* Showcase1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Showcase1ViewController.h; sourceTree = "<group>"; };
+		238E7C9E28747913001042C6 /* Showcase1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Showcase1ViewController.m; sourceTree = "<group>"; };
+		238E7CA028747924001042C6 /* Showcase2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Showcase2ViewController.h; sourceTree = "<group>"; };
+		238E7CA128747924001042C6 /* Showcase2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Showcase2ViewController.m; sourceTree = "<group>"; };
+		23BF05E9286D90F9007E4C5E /* HowtankWidgetDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowtankWidgetDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BF05EC286D90F9007E4C5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23BF05ED286D90F9007E4C5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23BF05EF286D90F9007E4C5E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		23BF05F0286D90F9007E4C5E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		23BF05F2286D90F9007E4C5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23BF05F3286D90F9007E4C5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23BF05F6286D90F9007E4C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23BF05F8286D90FC007E4C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23BF05FB286D90FC007E4C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23BF05FD286D90FC007E4C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BF05FE286D90FC007E4C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23BF0606286DA261007E4C5E /* TextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		23BF0607286DA261007E4C5E /* TextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		23BF0608286DA261007E4C5E /* TextFieldCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
+		23BF060E286DA985007E4C5E /* ButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		23BF060F286DA985007E4C5E /* ButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		23BF0610286DA985007E4C5E /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		23BF0613286DA993007E4C5E /* SwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchCell.h; sourceTree = "<group>"; };
+		23BF0614286DA993007E4C5E /* SwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchCell.m; sourceTree = "<group>"; };
+		23BF0615286DA993007E4C5E /* SwitchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwitchCell.xib; sourceTree = "<group>"; };
+		23BF061F286DAF83007E4C5E /* BrowsePageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrowsePageCell.h; sourceTree = "<group>"; };
+		23BF0620286DAF83007E4C5E /* BrowsePageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrowsePageCell.m; sourceTree = "<group>"; };
+		23BF0621286DAF83007E4C5E /* BrowsePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrowsePageCell.xib; sourceTree = "<group>"; };
+		23BF0624286DAFA8007E4C5E /* ConversionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConversionCell.h; sourceTree = "<group>"; };
+		23BF0625286DAFA8007E4C5E /* ConversionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConversionCell.m; sourceTree = "<group>"; };
+		23BF0626286DAFA8007E4C5E /* ConversionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversionCell.xib; sourceTree = "<group>"; };
+		23BF0629286DAFB7007E4C5E /* PurchaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchaseCell.h; sourceTree = "<group>"; };
+		23BF062A286DAFB7007E4C5E /* PurchaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchaseCell.m; sourceTree = "<group>"; };
+		23BF062B286DAFB7007E4C5E /* PurchaseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseCell.xib; sourceTree = "<group>"; };
+		5995F6A99C84D3B3F0450069 /* Pods-HowtankWidgetDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowtankWidgetDemo.debug.xcconfig"; path = "Target Support Files/Pods-HowtankWidgetDemo/Pods-HowtankWidgetDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BF05E6286D90F9007E4C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9841C054662B6D7F63D3CD16 /* Pods_HowtankWidgetDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2225561BA9534B9DBD37CC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				052007ABE3F50B4D97FD3B59 /* Pods_HowtankWidgetDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23BF05E0286D90F9007E4C5E = {
+			isa = PBXGroup;
+			children = (
+				23BF05EB286D90F9007E4C5E /* HowtankWidgetDemo */,
+				23BF05EA286D90F9007E4C5E /* Products */,
+				D6497D0475987F0A182FE6A5 /* Pods */,
+				2225561BA9534B9DBD37CC72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23BF05EA286D90F9007E4C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23BF05E9286D90F9007E4C5E /* HowtankWidgetDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23BF05EB286D90F9007E4C5E /* HowtankWidgetDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23BF061B286DAC36007E4C5E /* ViewControllers */,
+				23BF0605286DA21E007E4C5E /* Views */,
+				23BF05EC286D90F9007E4C5E /* AppDelegate.h */,
+				23BF05ED286D90F9007E4C5E /* AppDelegate.m */,
+				23BF05EF286D90F9007E4C5E /* SceneDelegate.h */,
+				23BF05F0286D90F9007E4C5E /* SceneDelegate.m */,
+				23BF05F5286D90F9007E4C5E /* Main.storyboard */,
+				23BF05F8286D90FC007E4C5E /* Assets.xcassets */,
+				23BF05FA286D90FC007E4C5E /* LaunchScreen.storyboard */,
+				23BF05FD286D90FC007E4C5E /* Info.plist */,
+				23BF05FE286D90FC007E4C5E /* main.m */,
+			);
+			path = HowtankWidgetDemo;
+			sourceTree = "<group>";
+		};
+		23BF0605286DA21E007E4C5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23BF061A286DAC17007E4C5E /* PurchaseCell */,
+				23BF0619286DAC0C007E4C5E /* ConversionCell */,
+				23BF0618286DAC03007E4C5E /* BrowsePageCell */,
+				23BF060D286DA975007E4C5E /* ButtonCell */,
+				23BF060C286DA96D007E4C5E /* SwitchCell */,
+				23BF060B286DA266007E4C5E /* TextFieldCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23BF060B286DA266007E4C5E /* TextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				23BF0606286DA261007E4C5E /* TextFieldCell.h */,
+				23BF0607286DA261007E4C5E /* TextFieldCell.m */,
+				23BF0608286DA261007E4C5E /* TextFieldCell.xib */,
+			);
+			path = TextFieldCell;
+			sourceTree = "<group>";
+		};
+		23BF060C286DA96D007E4C5E /* SwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				23BF0613286DA993007E4C5E /* SwitchCell.h */,
+				23BF0614286DA993007E4C5E /* SwitchCell.m */,
+				23BF0615286DA993007E4C5E /* SwitchCell.xib */,
+			);
+			path = SwitchCell;
+			sourceTree = "<group>";
+		};
+		23BF060D286DA975007E4C5E /* ButtonCell */ = {
+			isa = PBXGroup;
+			children = (
+				23BF060E286DA985007E4C5E /* ButtonCell.h */,
+				23BF060F286DA985007E4C5E /* ButtonCell.m */,
+				23BF0610286DA985007E4C5E /* ButtonCell.xib */,
+			);
+			path = ButtonCell;
+			sourceTree = "<group>";
+		};
+		23BF0618286DAC03007E4C5E /* BrowsePageCell */ = {
+			isa = PBXGroup;
+			children = (
+				23BF061F286DAF83007E4C5E /* BrowsePageCell.h */,
+				23BF0620286DAF83007E4C5E /* BrowsePageCell.m */,
+				23BF0621286DAF83007E4C5E /* BrowsePageCell.xib */,
+			);
+			path = BrowsePageCell;
+			sourceTree = "<group>";
+		};
+		23BF0619286DAC0C007E4C5E /* ConversionCell */ = {
+			isa = PBXGroup;
+			children = (
+				23BF0624286DAFA8007E4C5E /* ConversionCell.h */,
+				23BF0625286DAFA8007E4C5E /* ConversionCell.m */,
+				23BF0626286DAFA8007E4C5E /* ConversionCell.xib */,
+			);
+			path = ConversionCell;
+			sourceTree = "<group>";
+		};
+		23BF061A286DAC17007E4C5E /* PurchaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				23BF0629286DAFB7007E4C5E /* PurchaseCell.h */,
+				23BF062A286DAFB7007E4C5E /* PurchaseCell.m */,
+				23BF062B286DAFB7007E4C5E /* PurchaseCell.xib */,
+			);
+			path = PurchaseCell;
+			sourceTree = "<group>";
+		};
+		23BF061B286DAC36007E4C5E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23BF061E286DAC57007E4C5E /* Showcase2ViewController */,
+				23BF061D286DAC4D007E4C5E /* Showcase1ViewController */,
+				23BF061C286DAC45007E4C5E /* ViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		23BF061C286DAC45007E4C5E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				23BF05F2286D90F9007E4C5E /* ViewController.h */,
+				23BF05F3286D90F9007E4C5E /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		23BF061D286DAC4D007E4C5E /* Showcase1ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				238E7C9D28747913001042C6 /* Showcase1ViewController.h */,
+				238E7C9E28747913001042C6 /* Showcase1ViewController.m */,
+			);
+			path = Showcase1ViewController;
+			sourceTree = "<group>";
+		};
+		23BF061E286DAC57007E4C5E /* Showcase2ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				238E7CA028747924001042C6 /* Showcase2ViewController.h */,
+				238E7CA128747924001042C6 /* Showcase2ViewController.m */,
+			);
+			path = Showcase2ViewController;
+			sourceTree = "<group>";
+		};
+		D6497D0475987F0A182FE6A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5995F6A99C84D3B3F0450069 /* Pods-HowtankWidgetDemo.debug.xcconfig */,
+				0B4FDBD17ED0ABF5271515C0 /* Pods-HowtankWidgetDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23BF05E8286D90F9007E4C5E /* HowtankWidgetDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BF0602286D90FC007E4C5E /* Build configuration list for PBXNativeTarget "HowtankWidgetDemo" */;
+			buildPhases = (
+				5A319FAEEA841657C8EBEC65 /* [CP] Check Pods Manifest.lock */,
+				23BF05E5286D90F9007E4C5E /* Sources */,
+				23BF05E6286D90F9007E4C5E /* Frameworks */,
+				23BF05E7286D90F9007E4C5E /* Resources */,
+				9E1949B7140F588D41BF6C03 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HowtankWidgetDemo;
+			productName = HowtankWidgetDemo;
+			productReference = 23BF05E9286D90F9007E4C5E /* HowtankWidgetDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23BF05E1286D90F9007E4C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					23BF05E8286D90F9007E4C5E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 23BF05E4286D90F9007E4C5E /* Build configuration list for PBXProject "HowtankWidgetDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23BF05E0286D90F9007E4C5E;
+			productRefGroup = 23BF05EA286D90F9007E4C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23BF05E8286D90F9007E4C5E /* HowtankWidgetDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23BF05E7286D90F9007E4C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF05FC286D90FC007E4C5E /* LaunchScreen.storyboard in Resources */,
+				23BF0628286DAFA8007E4C5E /* ConversionCell.xib in Resources */,
+				23BF0617286DA993007E4C5E /* SwitchCell.xib in Resources */,
+				23BF05F9286D90FC007E4C5E /* Assets.xcassets in Resources */,
+				23BF0612286DA985007E4C5E /* ButtonCell.xib in Resources */,
+				23BF0623286DAF83007E4C5E /* BrowsePageCell.xib in Resources */,
+				23BF060A286DA261007E4C5E /* TextFieldCell.xib in Resources */,
+				23BF062D286DAFB7007E4C5E /* PurchaseCell.xib in Resources */,
+				23BF05F7286D90F9007E4C5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A319FAEEA841657C8EBEC65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowtankWidgetDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1949B7140F588D41BF6C03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HowtankWidgetDemo/Pods-HowtankWidgetDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HowtankWidgetDemo/Pods-HowtankWidgetDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HowtankWidgetDemo/Pods-HowtankWidgetDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23BF05E5286D90F9007E4C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BF05F4286D90F9007E4C5E /* ViewController.m in Sources */,
+				23BF05EE286D90F9007E4C5E /* AppDelegate.m in Sources */,
+				238E7CA228747924001042C6 /* Showcase2ViewController.m in Sources */,
+				23BF0622286DAF83007E4C5E /* BrowsePageCell.m in Sources */,
+				23BF0616286DA993007E4C5E /* SwitchCell.m in Sources */,
+				23BF0609286DA261007E4C5E /* TextFieldCell.m in Sources */,
+				238E7C9F28747913001042C6 /* Showcase1ViewController.m in Sources */,
+				23BF05FF286D90FC007E4C5E /* main.m in Sources */,
+				23BF062C286DAFB7007E4C5E /* PurchaseCell.m in Sources */,
+				23BF0627286DAFA8007E4C5E /* ConversionCell.m in Sources */,
+				23BF05F1286D90F9007E4C5E /* SceneDelegate.m in Sources */,
+				23BF0611286DA985007E4C5E /* ButtonCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23BF05F5286D90F9007E4C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BF05F6286D90F9007E4C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23BF05FA286D90FC007E4C5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23BF05FB286D90FC007E4C5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23BF0600286D90FC007E4C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23BF0601286D90FC007E4C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23BF0603286D90FC007E4C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5995F6A99C84D3B3F0450069 /* Pods-HowtankWidgetDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85T5R478Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HowtankWidgetDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.smaplep.HowtankWidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23BF0604286D90FC007E4C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4FDBD17ED0ABF5271515C0 /* Pods-HowtankWidgetDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85T5R478Q4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HowtankWidgetDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.smaplep.HowtankWidgetDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BF05E4286D90F9007E4C5E /* Build configuration list for PBXProject "HowtankWidgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BF0600286D90FC007E4C5E /* Debug */,
+				23BF0601286D90FC007E4C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23BF0602286D90FC007E4C5E /* Build configuration list for PBXNativeTarget "HowtankWidgetDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BF0603286D90FC007E4C5E /* Debug */,
+				23BF0604286D90FC007E4C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23BF05E1286D90F9007E4C5E /* Project object */;
+}
