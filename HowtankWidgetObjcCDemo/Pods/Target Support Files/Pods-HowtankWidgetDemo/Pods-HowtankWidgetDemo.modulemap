@@ -1,0 +1,6 @@
+framework module Pods_HowtankWidgetDemo {
+  umbrella header "Pods-HowtankWidgetDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
