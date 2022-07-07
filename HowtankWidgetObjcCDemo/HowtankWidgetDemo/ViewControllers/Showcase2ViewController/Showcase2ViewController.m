@@ -20,7 +20,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [[HowtankWidget shared] browseWithShow:false pageName:@"" pageUrl:nil position:nil];
+    [[HowtankWidget shared] browseWithShow:true pageName:@"" pageUrl:nil position:nil];
 }
 
 - (void)setPicture:(NSString *)pictureName {

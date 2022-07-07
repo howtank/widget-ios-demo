@@ -28,7 +28,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [[HowtankWidget shared] browseWithShow:false pageName:@"Ma Page" pageUrl:@"/super" position:@"0 0 - -"];
+    [[HowtankWidget shared] browseWithShow:true pageName:@"Ma Page" pageUrl:@"/super" position:@"10 10 - -"];
 }
 
 - (void)setPicture:(NSString *)thirdpartyName {
