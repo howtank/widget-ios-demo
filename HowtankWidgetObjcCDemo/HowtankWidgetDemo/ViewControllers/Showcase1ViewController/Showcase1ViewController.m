@@ -1,10 +1,3 @@
-//
-//  Showcase1ViewController.m
-//  HowtankWidgetDemo
-//
-//  Created by Hoa Nguyen on 05/07/2022.
-//
-
 #import "Showcase1ViewController.h"
 
 @interface Showcase1ViewController ()

@@ -1,10 +1,3 @@
-//
-//  ViewController.h
-//  HowtankWidgetDemo
-//
-//  Created by Hoa Nguyen on 30/06/2022.
-//
-
 #import <UIKit/UIKit.h>
 #import "BrowsePageCell.h"
 #import "ButtonCell.h"

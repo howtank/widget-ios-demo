@@ -1,10 +1,3 @@
-//
-//  PurchaseCell.m
-//  HowtankWidgetDemo
-//
-//  Created by Hoa Nguyen on 30/06/2022.
-//
-
 #import "PurchaseCell.h"
 
 @interface PurchaseCell ()

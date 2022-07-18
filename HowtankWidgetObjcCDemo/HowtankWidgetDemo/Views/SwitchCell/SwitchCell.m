@@ -1,10 +1,3 @@
-//
-//  SwitchCell.m
-//  HowtankWidgetDemo
-//
-//  Created by Hoa Nguyen on 30/06/2022.
-//
-
 #import "SwitchCell.h"
 
 @interface SwitchCell ()

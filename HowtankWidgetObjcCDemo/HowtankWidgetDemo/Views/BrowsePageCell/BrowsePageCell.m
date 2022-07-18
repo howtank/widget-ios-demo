@@ -1,10 +1,3 @@
-//
-//  BrowsePageCell.m
-//  HowtankWidgetDemo
-//
-//  Created by Hoa Nguyen on 30/06/2022.
-//
-
 #import "BrowsePageCell.h"
 
 @interface BrowsePageCell ()
