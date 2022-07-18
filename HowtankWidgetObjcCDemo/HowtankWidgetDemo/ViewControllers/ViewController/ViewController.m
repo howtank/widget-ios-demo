@@ -240,41 +240,9 @@
                     break;
                     
                 case AddWidgetRowsAddInSitu: {
-                    UIAlertController *alert = [
-                        UIAlertController alertControllerWithTitle:@"" 
-                        message:@"Display Widget with:" 
-                        preferredStyle:UIAlertControllerStyleAlert
-                    ];
-                    [alert addAction: [UIAlertAction actionWithTitle:@"Mon App" 
-                                                               style:UIAlertActionStyleDefault 
-                                                             handler:^(UIAlertAction * _Nonnull action) {
-                        self->_thirdPartyName = @"monapp";
-                        self->_addWidgetInSitu = true;
-                        [self addWidget];
-                    }]];
-                    
-                    [alert addAction: [UIAlertAction actionWithTitle:@"Vente Privée" 
-                                                               style:UIAlertActionStyleDefault 
-                                                             handler:^(UIAlertAction * _Nonnull action) {
-                        self->_thirdPartyName = @"vp";
-                        self->_addWidgetInSitu = true;
-                        [self addWidget];
-                    }]];
-                    
-                    
-                    [alert addAction: [UIAlertAction actionWithTitle:@"3 Suisses" 
-                                                               style:UIAlertActionStyleDefault 
-                                                             handler:^(UIAlertAction * _Nonnull action) {
-                        self->_thirdPartyName = @"3suisses";
-                        self->_addWidgetInSitu = true;
-                        [self addWidget];
-                    }]];
-                    
-                    [alert addAction: [UIAlertAction actionWithTitle:@"Annuler" 
-                                                               style:UIAlertActionStyleCancel 
-                                                             handler:nil]
-                    ];
-                    [self presentViewController:alert animated:true completion:nil];
+                    self->_thirdPartyName = @"monapp";
+                    self->_addWidgetInSitu = true;
+                    [self addWidget];
                     break;
                 }
             }
