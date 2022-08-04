@@ -6,6 +6,6 @@ target 'Howtank Widget Sample' do
 
   # Pods for Howtank Widget Sample
   #pod 'HowtankWidgetSwift', :path => '../HowtankWidgetSwift'
-  pod 'HowtankWidgetSwift'
+  pod 'HowtankWidgetSwift', '2.3.0'
 
 end

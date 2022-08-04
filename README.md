@@ -22,7 +22,7 @@
     3. Please read the content of the `ViewController.swift` file. It is fully documented and explain how to set up and run the widget.
     
 ### Installation:
-1. In your project folder, add ``pod ‘HowtankWidgetSwift’, ‘2.2.5’`` into the ``Podfile``
+1. In your project folder, add ``pod ‘HowtankWidgetSwift’, ‘2.3.0’`` into the ``Podfile``
 2. Then run ``Pod install`` command on terminal.
 
 ### Quick setup
