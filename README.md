@@ -1,6 +1,5 @@
-
+# Howtank Widget Demo App - SDK version: 2.3.0
 # Howtank - iOS integration guide
-
 ### Technical overview
 - The **Howtank iOS widget** is a library that, once included in your app, display the `Howtank chat`. 
 - Before being clicked by the user, it is in a `folded` state, waiting quietly for a user action.
